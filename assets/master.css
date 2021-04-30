@@ -63,20 +63,61 @@ header .navbar ul li:last-child {
 main .container {
   width: 52%;
   margin: 0 auto;
-  height: 100vh;
 }
 main .container .faqs {
-  padding: 100px 10px;
+  padding-top: 60px;
 }
-main .container .faqs h3 {
+main .container .faqs .faq {
+  padding: 40px 10px 0 10px;
+}
+main .container .faqs .faq h3 {
   font-size: 25px;
 }
-main .container .faqs p {
+main .container .faqs .faq p {
   margin: 35px 0;
   font-size: 14px;
   line-height: 22px;
 }
-main .container .faqs a {
+main .container .faqs .faq a {
   text-decoration: none;
   color: #006eff;
+}
+main .container .faqs .faq ol {
+  padding-left: 20px;
+}
+main .container .faqs .faq ol li {
+  padding-left: 20px;
+  margin: 15px 0;
+  line-height: 22px;
+}
+main .container .faqs .faq ol li ol li {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #F5F5F5;
+  border-top: 1px solid #eee;
+}
+footer .container-footer {
+  width: 52%;
+  height: 44px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container-footer .left-footer span {
+  font-size: 11px;
+  color: #57575791;
+}
+footer .container-footer .right-footer {
+  display: flex;
+  align-items: center;
+}
+footer .container-footer .right-footer i {
+  color: #006eff;
+}
+footer .container-footer .right-footer select {
+  border: 1px solid black;
+  padding-right: 100px;
 }

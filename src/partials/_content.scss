@@ -2,20 +2,35 @@ main{
     .container{
         width: 52%;
         margin: 0 auto;
-        height: 100vh;
         .faqs{
-            padding: 100px 10px;
-            h3{
-                font-size: 25px;
-            }
-            p{
-                margin: 35px 0;
-                font-size: 14px;
-                line-height: 22px;
-            }
-            a{
-                text-decoration: none;
-                color: #006eff;
+            padding-top: 60px;
+            .faq{
+                padding: 40px 10px 0 10px;
+                h3{
+                    font-size: 25px;
+                }
+                p{
+                    margin: 35px 0;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #006eff;
+                }
+                ol{
+                    padding-left: 20px;
+                    li{
+                        padding-left: 20px;
+                        margin: 15px 0;
+                        line-height: 22px;
+                        ol{
+                            li{
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
