@@ -9,10 +9,16 @@ header{
             align-items: center;
             padding-top: 10px;
             padding-left: 10px;
+            img:hover{
+                cursor: pointer;
+            }
             p{
-                font-size: 24px;
+                font-size: 22px;
                 color: $colorgrey;
                 margin-top: 5px;
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
         .right-top-header{
@@ -34,8 +40,15 @@ header{
             li{
                 list-style: none;
                 padding: 8px 20px;
-                font-size: 16px;
+                font-size: 15px;
                 font-weight: bold;
+                &:hover{
+                    cursor: pointer;
+                }
+                &:last-child{
+                    color: rgb(0, 110, 255);
+                    border-bottom: 2px solid rgb(0, 110, 255);
+                }
             }
         }
     }

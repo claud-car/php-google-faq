@@ -9,6 +9,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php 
+    
+    ?>
     <header>
         <div class="top-header">
             <div class="left-top-header">
@@ -30,5 +33,10 @@
             </ul>
         </div>
     </header>
+    <main>
+        <div class="container">
+
+        </div>
+    </main>
 </body>
 </html>
