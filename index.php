@@ -87,10 +87,10 @@
         </div>
         <div class="navbar">
             <ul>
-                <li>Introduzione</li>
-                <li>Norme sulla privacy</li>
-                <li>Termini di servizio</li>
-                <li>Tecnologie</li>
+                <li><a href="https://policies.google.com/">Introduzione</a></li>
+                <li><a href="https://policies.google.com/privacy">Norme sulla privacy</a></li>
+                <li><a href="https://policies.google.com/terms">Termini di servizio</a></li>
+                <li><a href="https://policies.google.com/technologies">Tecnologie</a></li>
                 <li>Domande frequenti</li>
             </ul>
         </div>

@@ -40,10 +40,12 @@ header .top-header .right-top-header i {
   margin-left: 20px;
   color: #575757;
 }
+header .top-header .right-top-header i:hover {
+  cursor: pointer;
+}
 header .navbar ul {
   display: flex;
   flex-direction: row;
-  color: #575757;
   margin-top: 5px;
 }
 header .navbar ul li {
@@ -51,6 +53,10 @@ header .navbar ul li {
   padding: 8px 20px;
   font-size: 15px;
   font-weight: bold;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: #575757;
 }
 header .navbar ul li:hover {
   cursor: pointer;
@@ -116,6 +122,11 @@ footer .container-footer .right-footer {
 }
 footer .container-footer .right-footer i {
   color: #006eff;
+  font-size: 18px;
+  margin-right: 10px;
+}
+footer .container-footer .right-footer i:hover {
+  cursor: pointer;
 }
 footer .container-footer .right-footer select {
   border: 1px solid black;

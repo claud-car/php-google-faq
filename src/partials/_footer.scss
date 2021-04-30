@@ -19,6 +19,11 @@ footer{
             align-items: center;
             i{
                 color: #006eff;
+                font-size: 18px;
+                margin-right: 10px;
+                &:hover{
+                    cursor: pointer;
+                }
             }
             select{
                 border: 1px solid black;
