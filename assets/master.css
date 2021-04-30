@@ -65,3 +65,18 @@ main .container {
   margin: 0 auto;
   height: 100vh;
 }
+main .container .faqs {
+  padding: 100px 10px;
+}
+main .container .faqs h3 {
+  font-size: 25px;
+}
+main .container .faqs p {
+  margin: 35px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+main .container .faqs a {
+  text-decoration: none;
+  color: #006eff;
+}

@@ -3,5 +3,20 @@ main{
         width: 52%;
         margin: 0 auto;
         height: 100vh;
+        .faqs{
+            padding: 100px 10px;
+            h3{
+                font-size: 25px;
+            }
+            p{
+                margin: 35px 0;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            a{
+                text-decoration: none;
+                color: #006eff;
+            }
+        }
     }
 }
